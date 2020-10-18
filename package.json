@@ -1,0 +1,38 @@
+{
+  "name": "magic-marbles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "example1": "ts-node src/question1/example1/main.ts",
+    "example2": "ts-node node_modules/jasmine/bin/jasmine src/question1/example2/main.spec.ts --config=jasmine.json",
+    "example3": "ts-node src/question2/example3/main.ts",
+    "example4": "ts-node node_modules/jasmine/bin/jasmine src/question2/example4/main.spec.ts --config=jasmine.json",
+    "example5": "ts-node src/question2/example5/main.ts",
+    "example6": "ts-node src/question2/example6/main.ts",
+    "question1": "ts-node node_modules/jasmine/bin/jasmine src/question1/main.spec.ts --config=jasmine.json",
+    "question2": "ts-node node_modules/jasmine/bin/jasmine src/question2/main.spec.ts --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonkarsten/magic-marbles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonkarsten/magic-marbles/issues"
+  },
+  "homepage": "https://github.com/antonkarsten/magic-marbles#readme",
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.14",
+    "@types/node": "^14.11.8",
+    "jasmine": "^3.6.1",
+    "jasmine-marbles": "^0.6.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
