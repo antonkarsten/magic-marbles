@@ -21,12 +21,9 @@ describe("Main", () => {
       map((value) => 4 * value)
     );
 
-    const expectedObservable = cold(
-      /* replace the string between here */ "xxxx" /* and here */,
-      {
-        e: /* replace the value between here */ 5 /* and here */,
-      }
-    );
+    const expectedObservable = cold("---e", {
+      e: 24,
+    });
 
     expect(resultObservable).toBeObservable(expectedObservable);
   });
