@@ -36,6 +36,8 @@ question4Observable.subscribe((time) => {
   console.log("subscriber1", time);
 });
 
-question4Observable.subscribe((time) => {
-  console.log("subscriber2", time);
-});
+setTimeout(() => {
+  question4Observable.subscribe((time) => {
+    console.log("subscriber2", time);
+  });
+}, 2500);

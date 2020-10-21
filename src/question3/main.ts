@@ -27,9 +27,9 @@ class RandomClock {
     }
   }
 }
+const randomClock = new RandomClock();
 
 const example3Observable = new Observable((observer) => {
-  const randomClock = new RandomClock();
   randomClock.addEventListener((e) => observer.next(e));
 });
 

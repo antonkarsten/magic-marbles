@@ -12,10 +12,16 @@
     "example5": "ts-node src/question2/example5/main.ts",
     "example6": "ts-node src/question2/example6/main.ts",
     "example7": "ts-node src/question3/example7/main.ts",
+    "example8": "ts-node node_modules/jasmine/bin/jasmine src/question5/example8/main.spec.ts --config=jasmine.json",
+    "example9": "ts-node node_modules/jasmine/bin/jasmine src/question5/example9/main.spec.ts --config=jasmine.json",
+    "example10": "ts-node node_modules/jasmine/bin/jasmine src/question5/example10/main.spec.ts --config=jasmine.json",
+    "example11": "ts-node src/question6/example11/main.ts",
     "question1": "ts-node node_modules/jasmine/bin/jasmine src/question1/main.spec.ts --config=jasmine.json",
     "question2": "ts-node node_modules/jasmine/bin/jasmine src/question2/main.spec.ts --config=jasmine.json",
     "question3": "ts-node src/question3/main.ts",
-    "question4": "ts-node src/question4/main.ts"
+    "question4": "ts-node src/question4/main.ts",
+    "question5": "ts-node node_modules/jasmine/bin/jasmine src/question5/main.spec.ts --config=jasmine.json",
+    "question6": "ts-node node_modules/jasmine/bin/jasmine src/question6/main.spec.ts --config=jasmine.json"
   },
   "repository": {
     "type": "git",
