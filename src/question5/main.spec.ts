@@ -5,8 +5,8 @@ import { cold } from "jasmine-marbles";
  */
 describe("Main", () => {
   it("Question5", () => {
-    const a = cold("a");
-    const b = cold("a");
+    const a = cold("-c");
+    const b = cold("d");
     expect(a).toBeObservable(b);
   });
 });
