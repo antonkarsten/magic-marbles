@@ -25,7 +25,9 @@
     "question5": "ts-node node_modules/jasmine/bin/jasmine src/question5/main.spec.ts --config=jasmine.json",
     "question6": "ts-node node_modules/jasmine/bin/jasmine src/question6/main.spec.ts --config=jasmine.json",
     "question7": "ts-node node_modules/jasmine/bin/jasmine src/question7/main.spec.ts --config=jasmine.json",
-    "question8": "ts-node node_modules/jasmine/bin/jasmine src/question8/main.spec.ts --config=jasmine.json"
+    "question8": "ts-node node_modules/jasmine/bin/jasmine src/question8/main.spec.ts --config=jasmine.json",
+    "question9": "ts-node src/question9/main.ts",
+    "question10": "ts-node node_modules/jasmine/bin/jasmine src/question10/main.spec.ts --config=jasmine.json"
   },
   "repository": {
     "type": "git",

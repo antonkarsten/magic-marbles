@@ -9,7 +9,7 @@ describe("Error", () => {
     });
 
     const expected = cold(
-      "xx", // Replace the xx
+      "c#", // Replace the xx
       {
         c: 10,
       },
